@@ -10,5 +10,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: qsq8t65pxs/dep-action-repro-20260513@v1.0.0
+      - uses: qsq8t65pxs/dep-action-repro-20260513@v1.0.2
       - run: echo "ci passed"
