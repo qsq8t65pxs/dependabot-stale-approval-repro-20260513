@@ -2,7 +2,7 @@ version: 2
 updates:
   - package-ecosystem: github-actions
     directory: /
-    # Trigger an immediate Dependabot re-check after publishing a new upstream tag.
+    # Trigger another immediate Dependabot re-check after publishing the post-review tag.
     schedule:
       interval: daily
     labels:
